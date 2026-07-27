@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="alumna.png">
+    <title>PORTAL SD AIIS</title>
+    <style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar h1 {
+        font-size: 18px;
+        margin: 0;
+        color: #38bdf8;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    h1, h2 {
+        margin: 0;
+    }
+
+    h1 {
+        margin-bottom: 5px;
+    }
+
+    .hero p {
+        color: #94a3b8;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px 30px 40px;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.05);
+        border-radius: 16px;
+        padding: 20px;
+        backdrop-filter: blur(8px);
+        transition: 0.3s;
+        border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .card:hover {
+        transform: translateY(-5px) scale(1.02);
+        border-color: #38bdf8;
+    }
+
+    .card h3 {
+        margin-top: 0;
+        color: #f1f5f9;
+    }
+
+    .card p {
+        color: #94a3b8;
+        font-size: 14px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 16px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, #38bdf8, #6366f1);
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .btn:hover {
+        opacity: 0.85;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 12px;
+        color: #64748b;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile-icon img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid #38bdf8;
+    }
+
+    .profile-icon img:hover {
+        opacity: 0.8;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Portal Admin</h1>
+
+        <a href="profile.html" class="profile-icon">
+            <img src="foto.png" alt="profil">
+        </a>
+    </div>
+
+    <div class="hero">
+    <h1>FRONT OFFICE</h1>
+    <h2>SD ALUMNA INDONESIA ISLAMIC SCHOOL</h2>
+    </div>
+
+    <div class="grid">
+        
+    <div class="card">
+        <h3>JUMLAH SISWA</h3>
+        <p>Jumlah siswa SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1VhbJrOFFs7LToMol62N01m3iBfJwTQZLu2HBzDkLqNQ/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+
+    <div class="card">
+        <h3>DATA SISWA EKSKUL</h3>
+        <p>Data Siswa Mengikuti Ekskul SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1RM_Irae0a0vY5yZ4NxBz-mn-fCYDafFEg91lFuQJqFk/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+        
+    <div class="card">
+        <h3>FORM BUKU TAMU</h3>
+        <p>Form untuk mengisi buku tamu SD Alumna Indonesia Islamic School</p>
+        <a href="https://forms.gle/YyMYasiZvcHW1ave7" class="btn" target="_blank">Isi Form</a>
+    </div>
+
+    <div class="card">
+        <h3>BUKU TAMU</h3>
+        <p>Daftar Tamu SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1jYMuz7qiTAVgfy-6rb06i9w1ZjC5J3-TcRG9zrhDnzU/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+
+    <div class="card">
+        <h3>PPDB</h3>
+        <p>Progress PPDB SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1iBCioAYhVLWTU4lNFmuYrawcSx6e_YFpdp0-3SQISuc/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+
+    <div class="card">
+        <h3>BUKTI BAYAR PPDB</h3>
+        <p>Bukti pembayaran PPDB SD Alumna Indonesia Islamic School</p>
+        <a href="https://drive.google.com/drive/u/0/folders/1ma9a7iHGro5hx9BplxNxzXkef1KCOaaj" class="btn" target="_blank">Buka</a>
+    </div>
+
+    <div class="card">
+        <h3>FORM PENGUNDURAN PPDB</h3>
+        <p>Form untuk pengunduran PPDB SD Alumna Indonesia Islamic School</p>
+        <a href="https://forms.gle/HhFWZRwjhLANkMEG9" class="btn" target="_blank">Isi Form</a>
+    </div>
+
+    <div class="card">
+        <h3>DATA PENGUNDURAN DIRI PPDB</h3>
+        <p>Data siswa yang mengunduran diri PPDB SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1BMISs6-Vxl6KHpDEf2hcS0MlwpYsx6dW7dwu3xTFHA4/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+        
+    <div class="card">
+        <h3>PROGRAM ALUMNA PRIMARY</h3>
+        <p>Program yang disediakan SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/presentation/d/1Te6_4gAGtHheVddIbUClBM-mC4tOq4qhhJR916ufAiw/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+        
+    <div class="card">
+        <h3>PRIMARY FEE PINDAHAN</h3>
+        <p>Biaya siswa pindahan SD Alumna Indonesia Islamic School</p>
+        <a href="https://drive.google.com/drive/folders/1YaRLmDWp2FHdtUnxYT7x4UrVVQVH0QcW?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+
+    <div class="card">
+        <h3>KALDIK</h3>
+        <p>Kalender pendidikan semester genap SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1sMOJA1a72WvBtnKIWId5785MBH1q-Rfx9aHDiGoKHJg/edit?usp=sharing" class="btn" target="_blank">Buka</a>
+    </div>
+
+    <div class="card">
+        <h3>PESANAN BAJU & JILBAB</h3>
+        <p>Daftar pesanan baju dan jilbab siswa SD Alumna Indonesia Islamic School</p>
+        <a href="https://docs.google.com/spreadsheets/d/1ogmlHkc4T1tr4NUmriD_VC7lgjcpnfkXTNyDiEg-6dM/edit?usp=drivesdk" class="btn" target="_blank">Buka</a>
+    </div>
+
+    </div>
+
+    <footer>
+    © 2026 Rajab Sapta Hadi
+    </footer>
+
+</body>
+</html>
